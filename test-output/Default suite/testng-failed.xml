@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.ProdVendTest.CreateProVenEndtoEndTest">
+      <class name="com.vtiger.ProdVendTest.CreateProductTest">
         <methods>
+          <include name="productCreateTest"/>
           <include name="loginProcess"/>
           <include name="closeBrowser"/>
           <include name="dbDisConnection"/>
-          <include name="vendorCreate"/>
           <include name="logoutProcess"/>
           <include name="openBrowser"/>
           <include name="dbConnection"/>
         </methods>
-      </class> <!-- com.vtiger.ProdVendTest.CreateProVenEndtoEndTest -->
+      </class> <!-- com.vtiger.ProdVendTest.CreateProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

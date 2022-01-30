@@ -1,105 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Product and Vendor Linked]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-01-30T13:14:45 IST" name="Suite" finished-at="2022-01-30T13:15:15 IST" duration-ms="29669">
+  <suite started-at="2022-01-30T20:44:55 IST" name="Default suite" finished-at="2022-01-30T20:45:04 IST" duration-ms="9327">
     <groups>
     </groups>
-    <test started-at="2022-01-30T13:14:45 IST" name="Test" finished-at="2022-01-30T13:15:15 IST" duration-ms="29669">
+    <test started-at="2022-01-30T20:44:55 IST" name="Default test" finished-at="2022-01-30T20:45:04 IST" duration-ms="9327">
       <class name="com.vtiger.ProdVendTest.CreateProductTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@3646a422]" started-at="2022-01-30T13:14:54 IST" name="openBrowser" finished-at="2022-01-30T13:14:55 IST" duration-ms="783" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginProcess(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@3646a422]" started-at="2022-01-30T13:14:55 IST" name="loginProcess" finished-at="2022-01-30T13:14:57 IST" duration-ms="1959" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginProcess -->
-        <test-method signature="productCreateTest()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@3646a422]" started-at="2022-01-30T13:14:57 IST" name="productCreateTest" finished-at="2022-01-30T13:15:02 IST" duration-ms="4790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productCreateTest -->
-        <test-method is-config="true" signature="logoutProcess()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@3646a422]" started-at="2022-01-30T13:15:02 IST" name="logoutProcess" finished-at="2022-01-30T13:15:03 IST" duration-ms="893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutProcess -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@3646a422]" started-at="2022-01-30T13:15:03 IST" name="closeBrowser" finished-at="2022-01-30T13:15:03 IST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.vtiger.ProdVendTest.CreateProductTest -->
-      <class name="com.vtiger.ProdVendTest.CreateProVenEndtoEndTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateProVenEndtoEndTest@750e2b97]" started-at="2022-01-30T13:15:03 IST" name="openBrowser" finished-at="2022-01-30T13:15:04 IST" duration-ms="775" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginProcess(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateProVenEndtoEndTest@750e2b97]" started-at="2022-01-30T13:15:04 IST" name="loginProcess" finished-at="2022-01-30T13:15:06 IST" duration-ms="2083" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginProcess -->
-        <test-method signature="vendorCreate()[pri:0, instance:com.vtiger.ProdVendTest.CreateProVenEndtoEndTest@750e2b97]" started-at="2022-01-30T13:15:06 IST" name="vendorCreate" finished-at="2022-01-30T13:15:14 IST" duration-ms="8497" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Product and Vendor Linked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- vendorCreate -->
-        <test-method is-config="true" signature="logoutProcess()[pri:0, instance:com.vtiger.ProdVendTest.CreateProVenEndtoEndTest@750e2b97]" started-at="2022-01-30T13:15:14 IST" name="logoutProcess" finished-at="2022-01-30T13:15:15 IST" duration-ms="821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutProcess -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.ProdVendTest.CreateProVenEndtoEndTest@750e2b97]" started-at="2022-01-30T13:15:15 IST" name="closeBrowser" finished-at="2022-01-30T13:15:15 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.vtiger.ProdVendTest.CreateProVenEndtoEndTest -->
-      <class name="com.vtiger.ProdVendTest.CreateVendorTest">
-        <test-method is-config="true" signature="dbConnection()[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:14:45 IST" name="dbConnection" finished-at="2022-01-30T13:14:45 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:44:55 IST" name="dbConnection" finished-at="2022-01-30T20:44:55 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnection -->
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:14:45 IST" name="openBrowser" finished-at="2022-01-30T13:14:47 IST" duration-ms="1397" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:44:55 IST" name="openBrowser" finished-at="2022-01-30T20:44:57 IST" duration-ms="1480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginProcess(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:14:47 IST" name="loginProcess" finished-at="2022-01-30T13:14:49 IST" duration-ms="2013" status="PASS">
+        <test-method is-config="true" signature="loginProcess(java.lang.String,java.lang.String)[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:44:57 IST" name="loginProcess" finished-at="2022-01-30T20:44:59 IST" duration-ms="2060" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,23 +38,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginProcess -->
-        <test-method signature="vendorCreateTest()[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:14:49 IST" name="vendorCreateTest" finished-at="2022-01-30T13:14:53 IST" duration-ms="4726" status="PASS">
+        <test-method signature="productCreateTest()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:44:59 IST" name="productCreateTest" finished-at="2022-01-30T20:45:03 IST" duration-ms="4887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorCreateTest -->
-        <test-method is-config="true" signature="logoutProcess()[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:14:53 IST" name="logoutProcess" finished-at="2022-01-30T13:14:54 IST" duration-ms="804" status="PASS">
+        </test-method> <!-- productCreateTest -->
+        <test-method is-config="true" signature="logoutProcess()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:45:03 IST" name="logoutProcess" finished-at="2022-01-30T20:45:04 IST" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutProcess -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:14:54 IST" name="closeBrowser" finished-at="2022-01-30T13:14:54 IST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:45:04 IST" name="closeBrowser" finished-at="2022-01-30T20:45:04 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="dbDisConnection()[pri:0, instance:com.vtiger.ProdVendTest.CreateVendorTest@55a147cc]" started-at="2022-01-30T13:15:15 IST" name="dbDisConnection" finished-at="2022-01-30T13:15:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="dbDisConnection()[pri:0, instance:com.vtiger.ProdVendTest.CreateProductTest@1a942c18]" started-at="2022-01-30T20:45:04 IST" name="dbDisConnection" finished-at="2022-01-30T20:45:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbDisConnection -->
-      </class> <!-- com.vtiger.ProdVendTest.CreateVendorTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.vtiger.ProdVendTest.CreateProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
